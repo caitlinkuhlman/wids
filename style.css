@@ -5,10 +5,12 @@
  */
 body {
   overflow-x: hidden;
-  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+  position: relative; }
 
 p {
-  line-height: 1.75; }
+  line-height: 1.75; 
+  font-size: 20px; }
 
 a {
   color: #212529}
@@ -107,7 +109,7 @@ body {
     font-weight: 400;
     padding: 0.75em 0;
     letter-spacing: 1px;
-    color: #212529;
+    color: white;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
       color: #b30000; }
@@ -201,6 +203,7 @@ header.masthead {
   .team-member p {
     margin-top: 0; }
 
+
 section#program {
   background-color: #b30000;
   color: white;
@@ -208,14 +211,22 @@ section#program {
   background-position: center;
   padding-bottom: 0px;
 }
+
+
+
 section#contact a {
-  color: #b30000; }
+  color: #b30000;
+}
 section#contact a:hover {
     color: #b30000; }
 
 section#program .container {
 padding-bottom: 75px;
 }
+
+
+
+
 
 section#contact .section-heading {
     color: #fff; }
