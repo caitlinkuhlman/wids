@@ -73,10 +73,6 @@ section li {
   background: #b30000;
   text-shadow: none; }
 
-::selection {
-  background: #b30000;
-  text-shadow: none; }
-
 img::selection {
   background: transparent; }
 
@@ -168,8 +164,8 @@ header.masthead {
       transform: scaleY(1.2); }
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px; }
+    padding-top: 270px;
+    padding-bottom: 180px; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 40px;
       font-style: italic;
@@ -197,9 +193,7 @@ header.masthead {
 .bio{
     text-align: center;
 }
-.key h4{
-    text-align: center;
-}
+
 .key p{
     font-size: 16px;
 }
@@ -254,31 +248,34 @@ section#program {
   color: white;
   background-repeat: no-repeat;
   background-position: center;
-  padding-bottom: 0px;
+  padding-bottom: 75px;
 }
 
 
+.dark {
+    background: #212529;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
 
 section#contact a {
   color: #b30000;
 }
-section#contact a:hover {
-    color: #b30000; }
 
-section#program .container {
+section#contact a:hover {
+    color: #b30000; 
+}
+
+section#contact .section-heading {
+    color: #fff; 
+}
+
+section#contact .container {
 padding-bottom: 75px;
 }
 
-
-
-
-
-section#contact .section-heading {
-    color: #fff; }
-
 section#contact {
   color: white;
-  background-color: #212529;
   background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
   background-position: center; }
@@ -315,6 +312,10 @@ section#contact {
     color: #ced4da;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
+.wrapper{
+  height:-webkit-fill-available;
+  margin-bottom:-75px;
+}
 footer {
   background: #b30000;
   color: white;
