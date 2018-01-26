@@ -189,8 +189,8 @@ header.masthead {
     padding-right: 20px;
     padding-bottom: 20px;
 }
-.bio{
-    text-align: center;
+#menu .nav-link{
+    color: #212529;
 }
 
 .key p{
@@ -318,23 +318,24 @@ section#contact {
   height:-webkit-fill-available;
   margin-bottom:-75px;
 }
+
 footer {
   background: #b30000;
   color: white;
   padding: 25px 0;
   text-align: center; }
   footer span.copyright {
-    font-size: 90%;
     line-height: 40px;
     text-transform: none;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   footer ul.quicklinks {
-    font-size: 90%;
     line-height: 40px;
     margin-bottom: 0;
     text-transform: none;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-
+    footer a{
+	color: white;
+    }
 ul.social-buttons {
   margin-bottom: 0; }
   ul.social-buttons li a {

@@ -24,18 +24,11 @@
 
     <!-- Custom styles for this template -->
     <link href="style.css" rel="stylesheet">
-
-    <script src="jquery.js"></script> 
-      <script> 
-      $(function(){
-        $("#menu").load("bio_menu.html"); 
-      });
-    </script> 
   </head>
 
   <body id="page-top">
     <div id="menu"></div>
-    <div class="container wrapper">
+    <div class="container">
       <div class="row">
         <div class="col-lg-12 key program-detail">
 	  <h2><br/>Technical Talks</h2>
@@ -77,13 +70,31 @@
 	</div>
       </section>
     </div>
-    
+    <!-- Footer -->
+    <footer>
+      <div class="container" style="color:white;" >
+        <div class="row">
+          <div class="col-md-6">
+            <span class="copyright">Copyright &copy; 2018</span>
+          </div>
+          <div class="col-md-6">
+                <p><a href="https://twitter.com/WiDSCentralMass?ref_src=twsrc%5Etfw"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+ 		<a href="https://github.com/caitlinkuhlman/wids"><i class="fa fa-github" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#"><i class="fa fa-facebook"></i></a></p>
+          </div>
+        </div>
+      </div>
+    </footer>    
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="bootstrap-4.0.0-alpha.6-dist/js/bootstrap.min.js"></script>
-    <script src="nav.js"></script>
+    <script> 
+      $(function(){
+        $("#menu").load("bio_menu.html"); 
+      });
+    </script>
   </body>
 </html>
