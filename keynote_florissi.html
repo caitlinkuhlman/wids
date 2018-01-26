@@ -28,32 +28,7 @@
   </head>
 
   <body id="page-top">
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top col-lg-2 offset-lg-10" id="mainNav">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style="margin-right: 20px;">
-        Menu
-        <i class="fa fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav text-uppercase ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="http://www.widscentralmass.org">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="http://www.widscentralmass.org#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="http://www.widscentralmass.org#program">Program</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="http://www.widscentralmass.org#contact">Contact</a>
-          </li>
-	  <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="http://www.widscentralmass.org#team">Organizers</a>
-          </li>
-	</ul>
-      </div>
-    </nav>
+    <div id="menu"></div>
     <div class="container wrapper">
       <div class="row">
         <div class="col-lg-12 key program-detail">
@@ -89,6 +64,10 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="bootstrap-4.0.0-alpha.6-dist/js/bootstrap.min.js"></script>
-    <script src="nav.js"></script>
+    <script> 
+      $(function(){
+        $("#menu").load("bio_menu.html"); 
+      });
+    </script>
   </body>
 </html>
