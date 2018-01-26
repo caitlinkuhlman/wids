@@ -277,8 +277,8 @@ padding-bottom: 75px;
 }
 
 section#contact {
-  color: white;
-  background-image: url("../img/map-image.png");
+  color: #212529;
+  padding-top: 0px;
   background-repeat: no-repeat;
   background-position: center; }
   section#contact .section-heading {
