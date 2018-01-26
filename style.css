@@ -185,7 +185,6 @@ header.masthead {
 
 .key img{
     width: 220px;
-    height: 220px;
     float: left;
     padding-right: 20px;
     padding-bottom: 20px;
@@ -223,6 +222,9 @@ header.masthead {
 
 .speaker h4,h2{
     text-align: center;
+}
+.speaker a{
+    color: white;
 }
 
 .team-member {
