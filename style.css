@@ -281,6 +281,8 @@ section#contact {
   padding-top: 0px;
   background-repeat: no-repeat;
   background-position: center; }
+  section#contact p{
+	font-size: 32px; }
   section#contact .section-heading {
     color: #fff; }
   section#contact .form-group {
