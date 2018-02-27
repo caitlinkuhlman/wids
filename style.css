@@ -257,9 +257,6 @@ section#program {
 .time{
   width: 350px;
   padding-left: 20px;
-  font-size: 2rem;
-  font-weight: 500;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .agenda{
@@ -274,6 +271,9 @@ section#program {
 }
 .agenda td{
 vertical-align: top;
+}
+.agenda a{
+  color:#b30000;
 }
 
 section#speakers{
