@@ -152,6 +152,9 @@ header.masthead {
 .intro-text a{
     color: #b30000;
 }
+#about a{
+    color: #b30000;
+}
     header.masthead .intro-text .intro-lead-in {
       font-size: 22px;
       font-style: italic;
