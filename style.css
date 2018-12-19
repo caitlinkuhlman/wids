@@ -297,6 +297,10 @@ section#speakers{
     padding-bottom: 75px;
 }
 
+.white {
+    color: white;
+}
+
 section#contact a {
   color: #b30000;
 }
